@@ -1,5 +1,10 @@
 @import "~@edx/brand/paragon/variables";
 @import "~@edx/brand/paragon/overrides";
+@import "~@openedx/paragon/styles/css/themes/light/variables";
+@import "~@openedx/paragon/styles/css/themes/light/utility-classes";
+
+@import url('https://cdn.jsdelivr.net/npm/@openedx/paragon@23.0.0-alpha.1/styles/css/themes/light/utility-classes.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@openedx/paragon@23.0.0-alpha.1/dist/core.min.css');
 
 .flag-button {
   background-color: var(--pgn-color-white);
